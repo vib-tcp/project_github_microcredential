@@ -1,5 +1,7 @@
 # Micro-credentials Project
 
+If you found this repository and is not registered in [our micro-credential]() please read more in the last topic.
+
 You should **fork this repository** and in collaboration with a colleague that is also part of the micro-credential course, you need to develop the project.
 The project is simple, and consists of creating a repository for documenting concepts, best practices, examples and commands-guide on using Git & GitHub.
 
@@ -39,3 +41,9 @@ Delivery
 -----------
 
 Once with the final version you must <span style="color:mediumBlue">make a pull request</span> to this repository.
+
+
+**Micro-credential |** Reproducible Data Analysis: an Essential Capability in Modern Science
+-------------------------------------------------------------------------------------------------
+
+This project is part the first evaluation of the micro-credetial that is offered by [VIB](https://vib.be/en#/) and [UGent](https://www.ugent.be/en) with the aim to improve data analysis reproducbility in science. A micro-credential is like a mini-diploma that you have followed a course and learnd a new skill that is valuable for your carrear. If you are interested to register you can find more detais in the [UGent registration page](https://studiekiezer.ugent.be/2025/micro-credential-reproducible-data-analysis-an-essential-capability-in-modern-science-en).
