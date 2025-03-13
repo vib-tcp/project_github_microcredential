@@ -29,9 +29,11 @@ Define the your collaboration strategy considering:
 
 6. Search for other Git commands, that were not introduced in the course, choose one or more that you agree could be useful in your work and include in the documentation.
 
-7. Review and communicate with each other using GitHub-issues
+7. You must have at least one tag in your project
 
-8. Clone the project in your computer and work as much as possible using command line.
+8. Review and communicate with each other using GitHub-issues
+
+9. Work as much as possible using command line.
 
 Delivery
 -----------
