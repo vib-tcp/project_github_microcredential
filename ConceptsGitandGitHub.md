@@ -117,7 +117,7 @@ Add a list of files:
 
 It is not only important, but it is also obligated to add a message! 
 
-![image.png](image.png)
+![image.png](image_modifymsg.png)
 
 You can include a message in the command line. 
 Alternatively, a more extensive meaningful msg can be made in the editor. 
@@ -218,7 +218,7 @@ The fourth conceptual area is Github.
 
 Create a new repository in Github
 
-![image.png](image%201.png)
+![image.png](image_createarepo.png)
 
 Good practice is to include a README file with general description about the project and instructions
 
@@ -377,7 +377,7 @@ When you and the collaborator were working on the same file/the same line. The p
 
 Example of a conflict below:
 
-![image.png](image%202.png)
+![image.png](image_solveconflict.png)
 
 *Note: In a timeline, the most recent commit is called HEAD*
 
@@ -495,7 +495,7 @@ When you add a new line in this old commit file and you try to commit the change
 
 You can go back by switching to main OR create a new branch to the detached head ( `git switch -c new_branch_name`)
 
-![image.png](image%203.png)
+![image.png](image_detachedhead.png)
 
 To attach the detached head:
 
@@ -541,19 +541,19 @@ If you use + in “source control”, then you can put files together in staging
 
 You can make branches in the code space:
 
-![image.png](image%204.png)
+![image.png](image_createbranchremote.png)
 
 Through pull request, you can merge two branches. This needs to be reviewed and accepted.  
 
-![image.png](image%205.png)
+![image.png](image_pullrequestremote.png)
 
 Here (create pull request), you can give instructions on what changes should be made. However, someone needs to review and approve it
 
-![image.png](image%206.png)
+![image.png](image_pullrequesteremote2.png)
 
 You can see the request in pull requests in the repository. At this location, the owner of the repo can review the suggested changes before implementing.
 
-![image.png](image%207.png)
+![image.png](image_pullrequests.png)
 
 You can choose people to assign a task + label (bug, documentation, create on yourself) on the right-hand side of the pull request. 
 
@@ -561,13 +561,13 @@ You can choose people to assign a task + label (bug, documentation, create on yo
 
 You can also assign this issue to someone.
 
-![image.png](image%208.png)
+![image.png](image_createissue.png)
 
 You can even go into the code/md files in the repository and add an issue to the exact line (the number) in the code
 
 Example:
 
-![image.png](image%209.png)
+![image.png](image_createissueinmd.png)
 
 Close issue when it is solved
 
@@ -591,34 +591,17 @@ In a collaboration, you need a pull request when you want to integrate changes f
 
 **How to create a fork**
 
-![image.png](image%2010.png)
+![image.png](image_createfork.png)
 
-![image.png](image%2011.png)
 
 **How to make changes to the original repo when using a fork**
 
 Make a change somewhere and commit the change
 
-![image.png](image%2012.png)
-
 *Note: Merging is done with a pull request!*
 
 Open a pull request under “contribute”. The owner can then review the request. 
 
-![image.png](image%2013.png)
-
-![image.png](image%2014.png)
-
 Owner needs to go to the “pull requests” in the repo, and accept the request
 
 *Note: You can also fork from a specific branch instead of the main.*
-
-## Extra:
-
-For educational purpose, you can use Liascript.github.io:
-
-[LiaScript](https://liascript.github.io/)
-
-Copy raw files URL-link and paste in the box ⇒ load course
-
-![image.png](image%2015.png)
