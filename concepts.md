@@ -27,7 +27,7 @@ I wanted to check out the branch from Arthur but I couldn't find it w/ `git bran
 Then you can create your own branch to experiment risk free while working on a collaboration: 
 `git branch <MyBranchName>`
 
-Then it's just a question of adding and commiting new changes before merging all branches. 
+Then it's just a question of adding and commiting new changes before merging all branches.
 
 
 

@@ -17,7 +17,7 @@ In particular,
 
 We might have been a tiny bit more ambitious by adding
 - https://medium.com/@tcij1013/best-practices-for-organizing-git-repositories-61e4538c3900
-- https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository?utm_source=chatgpt.com 
+- https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository? 
 
 We definitely need to
 - **merge all branches** for the final version
