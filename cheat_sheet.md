@@ -61,3 +61,6 @@ Create a new GitHub repo from command line (private, current wd)
 `gh repo create my-new-repo --private --source=. --remote=origin --push`
 
 `gh pr create --base main --head my-feature-branch --title "Add new feature" --body "This PR adds a new feature."`: create a new pull request
+
+Another interesting command which applies a specific commit from another branch. After picking a specific commit from another branch with git log, we can can return to the main branch to apply it:
+git cherry-pick <commitID> 
