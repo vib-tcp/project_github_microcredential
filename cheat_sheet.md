@@ -53,3 +53,10 @@ Dea`git switch -`: move back from detached head to before
 
 `git push -u origin feature-branch`: in order to push branch to online repo for the first time
 `git push --al`: pushes all branches to remote repo
+
+## GitHub commands
+
+Create a new GitHub repo from command line (private, current wd)
+`gh repo create my-new-repo --private --source=. --remote=origin --push`
+
+`gh pr create --base main --head my-feature-branch --title "Add new feature" --body "This PR adds a new feature."`: create a new pull request
