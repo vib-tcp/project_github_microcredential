@@ -17,6 +17,8 @@ In particular,
 
 We might have been a tiny bit more ambitious by adding
 - internet resources we've used to think about our impressive folder structure
+- https://medium.com/@tcij1013/best-practices-for-organizing-git-repositories-61e4538c3900
+- 
 
 We definitely need to
 - **merge all branches** for the final version
