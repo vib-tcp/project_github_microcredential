@@ -1,25 +1,21 @@
 # Micro-credentials Project
 
-If you found this repository and is not registered in [our micro-credential]() please read more in the last topic.
+Hi! We are Adrien and Arthur and this our amazing GitHub project, where we show we've totally mastered all the cool Git and Github stuff we recently learned about.
 
-You should **fork this repository** and in collaboration with a colleague that is also part of the micro-credential course. You develop the project together.
-The project is simple, and consists of creating a repository for documenting concepts, best practices, examples and a cheat-sheet on using Git & GitHub.
+In particular,
+- we **forked this repo** and **collaborate on the same forked repo**
+- we created a **cheat-sheet markdown file with examples**
+- our repo contains a **folder**, a **README file**, a **gitignore file**, and a **license**
+- we worked with **3 different brnaches**
 
-Your repository must contain a **folder structure, a README file, a gitignore file, a license**. All files must be developed in markdown (MD), you can find more information about [MD here](https://www.markdownguide.org/cheat-sheet/) and about [Liascript](https://liascript.github.io/), a MD dialect. You can add images and printscreens if you want.
+We might have been a tiny bit more ambition by adding
+- internet resources we've used to think about our impressive folder structure
 
-<span style="color:mediumBlue"> **Think about and inform yourself via internet resources about a useful folder structure in the repository, and cite your sources (2,3, as you see fit)**.</span>
+We definitely need to
+- **merge all branches** for the final version
+-
 
 
-Define the your collaboration strategy considering:
-----------------------------------------------------
-
-1. Both should work in different branches
-
-    a. A minimum of 3 branches must be available (main, partner1 and partner2), if necessary more branches can be created.
-    
-    b. The delivered project should be the final merged version.
-
-    c. You can merge directly or using branch pull request if you want someone to review.
 
 2. A minimum of 10 commits per person must be seen in the history.
 
