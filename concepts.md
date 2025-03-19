@@ -21,10 +21,6 @@ First we both cloned the forked repository, using :
 `git clone <SSH key>`
 --> Cloning means that we're making a local copy of a repository from github.
 
-Do we need git init again? 
---> No because :
-    - .git folder is already created
-
 
 
 
