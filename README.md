@@ -15,7 +15,7 @@ In particular,
 - we communicated via **GitHub issues**
 - we've mainly used the **CL**
 
-We might have been a tiny bit more ambition by adding
+We might have been a tiny bit more ambitious by adding
 - internet resources we've used to think about our impressive folder structure
 
 We definitely need to
