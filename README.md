@@ -21,8 +21,6 @@ We definitely need to
 
 3. You need to have at least two solved conflicts in the history, one by each person.
 
-4. You need to revert at least on commit.
-
 5. Include examples in your documents, you can decide where and how this fits better.
 
 6. Search for other Git commands, that were not introduced in the course, choose one or more that you agree could be useful in your work and include in the documentation.
@@ -38,8 +36,3 @@ Delivery
 
 Once with the final version you must <span style="color:mediumBlue">make a pull request</span> to this repository.
 
-
-**Micro-credential |** Reproducible Data Analysis: an Essential Capability in Modern Science
--------------------------------------------------------------------------------------------------
-
-This project is part the first evaluation of the micro-credetial that is offered by [VIB](https://vib.be/en#/) and [UGent](https://www.ugent.be/en) with the aim to improve data analysis reproducbility in science. A micro-credential is like a mini-diploma that you have followed a course and learnd a new skill that is valuable for your carrear. If you are interested to register you can find more detais in the [UGent registration page](https://studiekiezer.ugent.be/2025/micro-credential-reproducible-data-analysis-an-essential-capability-in-modern-science-en).
