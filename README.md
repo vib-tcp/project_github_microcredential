@@ -16,9 +16,8 @@ In particular,
 - we've mainly used the **CL**
 
 We might have been a tiny bit more ambitious by adding
-- internet resources we've used to think about our impressive folder structure
 - https://medium.com/@tcij1013/best-practices-for-organizing-git-repositories-61e4538c3900
-- 
+- https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository?utm_source=chatgpt.com 
 
 We definitely need to
 - **merge all branches** for the final version
