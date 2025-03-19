@@ -10,7 +10,7 @@ In particular,
 - we created **10 commits each** at least
 - one of our commits is actually a **revert**
 - the cheat_sheet file contains a number of **new GitHub commands** that were not discussed in the course
-- each of us has resolved several massive **conflicts**
+- each of us has [CONFLICT] several massive **conflicts** 
 - we have at least **one tag** in the project
 - we communicated via **GitHub issues**
 - we've mainly used the **CL**
