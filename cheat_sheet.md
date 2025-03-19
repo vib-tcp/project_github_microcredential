@@ -15,7 +15,7 @@ This file gives an overview of often-used commands. Use `--help` to get an overv
 ## Additional commands
 `git status`: check status of all files (unstaged, uncomitted, comitted)
 
-`git log`: history of git commands, push q to exit
+`git log`: history of git commands, **push q to exit**
 Options: 
 - `-n <number>` (only `number` recent ones are shown)
 - `--abbrev-commit` (shorter relevant name for commit)
