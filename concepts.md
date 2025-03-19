@@ -14,5 +14,13 @@ After some other commits and conflict creation it was now time to merge his bran
 
 `git merge Arthur`
 
-But "oh oh", some massive conflict emerged:
+But "oh oh", some massive conflict emerged. It was now time to decide which changes were the most relevant to keep before adding and commiting again!
+
+## But how did we do all that ? Well here is the knowledge needed.
+First we both cloned the forked repository, using :
+`git clone <SSH key>`
+--> Cloning means that we're making a local copy of a repository from github.
+
+
+
 
