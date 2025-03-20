@@ -14,16 +14,17 @@ The folder structure was inspired by [this webpage](https://coderefinery.github.
 
 The folder structure can be visualized as follows:
 
-
-├── `Data` \
+```
+├── Data \
 │   ├── processed-data \
 │   └── raw-data \
-├── `doc` \
+├── doc \
 │   ├── best-practices.md \
 │   ├── cheat-sheet.md \
 │   ├── concepts-git-github.MD \
 │   └── examples.md \
-├── `figures` \
+├── figures \
 ├── README.md \
-├── `src` \
-└── `tests` \
+├── src \
+└── tests \
+```
