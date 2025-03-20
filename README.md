@@ -16,14 +16,25 @@ The folder structure can be visualized as follows:
 
 
 ├── `Data`
+
 │   ├── processed-data
+
 │   └── raw-data
+
 ├── `doc`
+
 │   ├── best-practices.md
+
 │   ├── cheat-sheet.md
+
 │   ├── concepts-git-github.MD
+
 │   └── examples.md
+
 ├── `figures`
+
 ├── README.md
+
 ├── `src`
+
 └── `tests`
