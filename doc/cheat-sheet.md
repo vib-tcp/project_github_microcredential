@@ -34,6 +34,8 @@
 - `git log --abrev-commit` => get a list of all the commits with an abbreviated commit references
 - `git log -n 3`           => get a list of the last three commits 
 
+- `git reflog show`        => view an ordered list of the commits that HEAD has pointed to
+
 - `git diff <old commit> <new commit>`  => create diff between two commits
 - `git show <old commit> <new commit>`  => shows the two file next to each other between two commits
 
