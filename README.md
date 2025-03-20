@@ -14,7 +14,7 @@ The folder structure was inspired by [this webpage](https://coderefinery.github.
 
 The folder structure can be visualized as follows:
 
-
+```
 ├── Data\
 │   ├── processed-data\
 │   └── raw-data\
@@ -27,3 +27,4 @@ The folder structure can be visualized as follows:
 ├── *README.md*\
 ├── src\
 └── tests\
+```
