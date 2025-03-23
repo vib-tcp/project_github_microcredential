@@ -13,8 +13,10 @@ When you are in your local project folder, you can start the timeline by initial
 `git init`
 
 **Start from a remote repository:**
-On github, you can go to a remote repository, and clone it to your local machine. No need to initialize the timeline again. 
+1. On github, you can go to a remote repository, and clone it to your local machine. No need to initialize the timeline again. 
 `git clone ssh-address-repository`
+
+2. You can also first 'fork' to create a personal copy of a repository on GitHub. It allows you to freely experiment with changes without affecting the orignal repository.
 
 ## Where is Git/GitHub? Three conceptual areas:
 **1. Developing area**
@@ -29,7 +31,7 @@ The local repository on your computer is where all the versions live. It is the 
 **4. Remote area: GitHub**
 It is the remote repository. You first need to make a repository in GitHub, then you can use the ssh address of the repository to make a bridge on your computer to the remote repository. After that, you can push your local repository to the remote one. Make sure to always clean up your working tree first (check with git status).
 
-WORKING ORDER:
+GIT WORKFLOW:
 1. adjust your files and save (developing area)
 2. once you are ready, you should do:
 `git add file_A`: send a copy of the file to the staging area\
@@ -39,6 +41,18 @@ WORKING ORDER:
 
 4. push changes to remote repository:
 `git push`: send commit to remote areay
+
+5. retrieve remote changes locally
+`git pull`: get updates
+
+## Collaborations:
+**Adding collaborators:** You can grant other GitHub users access to your repository as collaborators, allowing them to push changes.
+
+**Pulling changes:** pulling fetches changes from a remote repository and merges them into the current branch.
+
+**Conflicts:** If you are working with someone simultaneously and somebody pushes it before you, this will create a conflict, because Git cannot automatically merge changes. When you try to push your modifications, you will get an error. You need to manually resolve conflicts by editing the conflicting files. For this, you first need to pull the latest version (containing the commit of your collaborator), then you can modify the file and look at the conflict closely and resolve. After that, you need to git add, commit and push it again. 
+
+**Code review:** GitHub allows reviewers to leave comments and sugges changes on pull requests, facilitating a collaborative code review process.
 
 ##Branches
 
