@@ -52,8 +52,29 @@ GIT WORKFLOW:
 
 **Conflicts:** If you are working with someone simultaneously and somebody pushes it before you, this will create a conflict, because Git cannot automatically merge changes. When you try to push your modifications, you will get an error. You need to manually resolve conflicts by editing the conflicting files. For this, you first need to pull the latest version (containing the commit of your collaborator), then you can modify the file and look at the conflict closely and resolve. After that, you need to git add, commit and push it again. 
 
-**Code review:** GitHub allows reviewers to leave comments and sugges changes on pull requests, facilitating a collaborative code review process.
+**Pull requests:** A pull request is a way to propose changes to a repository and facilitate collaborations. You create a pull request when you want to merge changes from one branch into another, and you need someone to review and approve them before merging. 
+    1. Push your changes to github
+    2. Open GitHub and navitage to your repository
+    3. Click the "Pull Requests" tab and create a new pull request, selecting your feature branch and the main branch
+    4. Once reviewed, the pull request can be merged.
 
-##Branches
+## Tag a commit
+You can use git tag to tag/commit a useful commit in your timeline. This can be a stable release, a specific version,..
+When you push, you need to add git push --tags as well. 
+git tag -d <name> to delete a tag, but you also need to delete it manually on github. 
+
+## Branches
+A branch is an independent timeline that roots from the main timeline. You can use it to work independently on same project, to experiment without risk, etc.
+`git branch <name>`: initiate a new branch
+
+To move between branches you need to do git checkout.
+`git checkout <branch_name>`: switches between branches.
+
+Once you’ve completed work on a branch, you can merge it back into the main branch:
+- first switch to the main branch: `git checkout main`
+- merge your branch with main: `git merge <your_branch>`
+
+Once merged, you can delete the branch:
+`git branch -d <your_branch>`
 
 
