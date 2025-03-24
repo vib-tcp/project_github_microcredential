@@ -88,4 +88,7 @@ You can create an overview of what commits have been done in the entire history 
 You can keep track of what is going on in your working directory and staging area using git status.
 `git status`: it shows you which files have been modified, which files are staged and which are untracked (new and not in git yet)
 
-
+To compare different commits or files you can use git diff.
+1. `git diff`: see unstaged changes (working directory vs last commit)
+2. `git diff --cached` or `git diff --staged`: see staged changes (staging area vs last commit)
+3. `git diff <commit1> <commit2>`: compare two commits 
