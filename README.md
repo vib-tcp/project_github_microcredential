@@ -23,8 +23,10 @@ The folder structure can be visualized as follows:
 │   ├── cheat-sheet.md \
 │   ├── concepts-git-github.MD \
 │   └── examples.md \
+│   └── images \
 ├── figures \
 ├── README.md \
+└── LICENSE \
 ├── src \
 └── tests \
 ```
