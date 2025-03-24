@@ -77,4 +77,15 @@ Once you’ve completed work on a branch, you can merge it back into the main br
 Once merged, you can delete the branch:
 `git branch -d <your_branch>`
 
+## What is a .gitignore file?
+In many cases, the project creates a lot of logs and other irrelevant files which are to be ignored. So to ignore those files, we have to put their names in“.gitignore” file.  
+The .gitignore file specifies files and directories that should be ignored by Git. It is used to prevent certain files from being tracked or committed.
+
+## GitHub history and keeping track of commits
+You can create an overview of what commits have been done in the entire history of your project. It shows you the commit hashes (IDs), the author and date of the commit, and the message that was assigned to it. It is great for reviewing past changes or finding a specific commit.
+`git log`: display commit history
+
+You can keep track of what is going on in your working directory and staging area using git status.
+`git status`: it shows you which files have been modified, which files are staged and which are untracked (new and not in git yet)
+
 
