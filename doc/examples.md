@@ -18,6 +18,8 @@ In project, software is often updated. However, a pipeline needs to be adapted a
 
 ## Tracking changes in a paper ##
 
-When making a paper, you can track all edits/changes using git and github. 
+When making a paper, you can track all edits/changes using git and github. All versions should be added, commited, and pushed, but a clear timeline should be maintained
 
+## Use of pipelines ## 
+On GitHub, a wide variety of pipelines are available that can be used for your own research/work. These pipeline can be cloned locally. Alternatively, you can fork them, and make your own changes. Through a pull request, suggestions of changes can be made to the original owner of the pipeline. 
 
