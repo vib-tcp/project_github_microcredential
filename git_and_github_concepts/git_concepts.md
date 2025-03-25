@@ -58,8 +58,8 @@ GIT WORKFLOW:
 
 **Conflicts:** If you are working with someone simultaneously and somebody pushes it before you, this will create a conflict, because Git cannot automatically merge changes. When you try to push your modifications, you will get an error. You need to manually resolve conflicts by editing the conflicting files. For this, you first need to pull the latest version (containing the commit of your collaborator), then you can modify the file and look at the conflict closely and resolve. After that, you need to git add, commit and push it again. 
 
-**Pull requests:** A pull request is a way to propose changes to a repository and facilitate collaborations. You create a pull request when you want to merge changes from one branch into another, and you need someone to review and approve them before merging.  
-    1. Push your changes to github  
+**Pull requests:** A pull request is a way to propose changes to a repository and facilitate collaborations. While a request for a pull exists as a git concept, the formalized pull request is a feature of web-based git hosting services like GitHub. You create a pull request when you want to merge changes from one branch into another, and you need someone to review and approve them before merging.  
+    1. Push your changes to GitHub  
     2. Open GitHub and navigate to your repository  
     3. Click the "Pull Requests" tab and create a new pull request, selecting your feature branch and the main branch  
     4. Once reviewed, the pull request can be merged.  
