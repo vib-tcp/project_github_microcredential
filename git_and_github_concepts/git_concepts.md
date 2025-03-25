@@ -68,6 +68,8 @@ GIT WORKFLOW:
     3. Click the "Pull Requests" tab and create a new pull request, selecting your feature branch and the main branch  
     4. Once reviewed, the pull request can be merged.  
 
+GitHub provides extensive documentation on pull requests in their [GitHub Docs platform](https://docs.github.com/en/pull-requests).  
+
 ## Tag a commit
 Git allows to create tags to mark specific points in the timeline of your repository. Tags can be used to specify specific versions of the code in a project. They can also be used to denote significant milestones in the development process.  
 You can use `git tag <tag_name>` to add a tag to a commit in your timeline.  
@@ -90,5 +92,6 @@ Once you’ve completed work on a branch, you can merge it back into the main br
 Once merged, you can delete the branch:  
 `git branch -d <your_branch>`
 
-
+**A note on direct merging and pull requests**
+While you can directly merge a branch into your main branch, the commands described above do not include a review process. In collaborative projects that are hosted in web-platforms such as GitHub, the use of a pull request to bring code changes from a branch into the main branch of a project is advisable. Pull requests allow for collaborators to review and comment on changes, giving chance for useful feedback and code improvements.   
 
