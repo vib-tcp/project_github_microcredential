@@ -39,10 +39,12 @@ It is the remote repository. In the context of this course, we use GitHub. You f
 
 GIT WORKFLOW:
 1. adjust your files and save (developing area)
+
 2. once you are ready, you should do:  
-`git add file_A`: send a copy of the file to the staging area  
-`git add *`: send a copy of all modified files to the staging area  
-3. commit changes:
+`git add file_A`: records the changes made to file_A and adds it to the staging area  
+`git add *`: records the changes made to all files and adds it to the staging area  
+
+3. commit changes:  
 `git commit -m "message"`: you send from staging area to local commit, linked to a meaningful message.  
 
 4. push changes to remote repository:  
