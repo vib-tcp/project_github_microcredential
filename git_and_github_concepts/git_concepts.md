@@ -4,28 +4,34 @@
 **Git:** 
 Git is a software to create a timeline of your projects. It keeps track of all changes you make during your project development and allows you to go back to each version at any point in time. You can save changes, and once you commit them to a version that is a snapshot in time.
 
-**Github:**
-Online repository to collect different git projects. GitHub is an online backup of all your timelines that were created in git.
+**GitHub:**
+Online repository to collect different git projects. GitHub can be used as an online backup of all your timelines that were created in git. As a web-based platform, GitHub offers several features that extend beyond the basic functionalities of git. These include:  
+- Repository Hosting: GitHub hosts Git repositories online, making them accessible from anywhere. 
+- Pull Requests: This feature allows developers to propose changes to a codebase, review code, and discuss modifications before merging.  
+- Issues and Bug Tracking: GitHub provides a built-in issue tracker to manage bugs, feature requests, and other tasks. 
+- Project Management Tools: GitHub offers project boards, milestones, and other tools to help manage and organize development tasks. 
+- Code Reviews: GitHub facilitates code reviews with inline comments and discussions on pull requests.  
+- Actions and CI/CD: GitHub Actions allows you to automate workflows, including continuous integration and continuous deployment (CI/CD). 
 
 ## How to start your timeline/repository?
-**Start a local repository:**
-When you are in your local project folder, you can start the timeline by initializing git, this will create a .git file. Git tracks every subfolder in your root folder, so no need to initialize it twice. 
+**Start a local repository:**  
+When you are in your local project folder, you can start the timeline by initializing git, this will create a .git file. Git tracks every subfolder in your root folder, so no need to initialize it twice.  
 `git init`
 
-**Start from a remote repository:**
-1. On github, you can go to a remote repository, and clone it to your local machine. No need to initialize the timeline again. 
+**Start from a remote repository:**  
+1. On github, you can go to a remote repository, and clone it to your local machine. No need to initialize the timeline again.  
 `git clone ssh-address-repository`
 
-2. You can also first 'fork' to create a personal copy of a repository on GitHub. It allows you to freely experiment with changes without affecting the orignal repository.
+2. You can also first 'fork' to create a personal copy of a repository on GitHub. It allows you to freely experiment with changes without affecting the original repository.
 
 ## Where is Git/GitHub? Three conceptual areas:
-**1. Developing area**
+**1. Developing area**  
 My computer: developing area with local folder where project is developed. 
 
-**2. Preparation: staging area?**
+**2. Preparation: staging area?**  
 If we do `git add`, we send it to the staging area, which is the place where you add files to prepare for commit. Location to prepare new snapshots to the timeline (before commit). 
 
-**3. Local repostitory: where is the timeline?**
+**3. Local repository: where is the timeline?**  
 The local repository on your computer is where all the versions live. It is the .git folder you have initialized. Typically only text files. 
 
 **4. Remote area (GitHub):**  
@@ -33,16 +39,16 @@ It is the remote repository. In the context of this course, we use GitHub. You f
 
 GIT WORKFLOW:
 1. adjust your files and save (developing area)
-2. once you are ready, you should do:
-`git add file_A`: send a copy of the file to the staging area\
-`git add *`: send a copy of all modified files to the staging area\
+2. once you are ready, you should do:  
+`git add file_A`: send a copy of the file to the staging area  
+`git add *`: send a copy of all modified files to the staging area  
 3. commit changes:
-`git commit -m "message"`: you send from staging area to local commit, linked to a meaningful message.\
+`git commit -m "message"`: you send from staging area to local commit, linked to a meaningful message.  
 
-4. push changes to remote repository:
-`git push`: send commit to remote areay
+4. push changes to remote repository:  
+`git push`: send commit to remote area  
 
-5. retrieve remote changes locally
+5. retrieve remote changes locally:  
 `git pull`: get updates
 
 ## Collaborations:
@@ -52,11 +58,11 @@ GIT WORKFLOW:
 
 **Conflicts:** If you are working with someone simultaneously and somebody pushes it before you, this will create a conflict, because Git cannot automatically merge changes. When you try to push your modifications, you will get an error. You need to manually resolve conflicts by editing the conflicting files. For this, you first need to pull the latest version (containing the commit of your collaborator), then you can modify the file and look at the conflict closely and resolve. After that, you need to git add, commit and push it again. 
 
-**Pull requests:** A pull request is a way to propose changes to a repository and facilitate collaborations. You create a pull request when you want to merge changes from one branch into another, and you need someone to review and approve them before merging. 
-    1. Push your changes to github
-    2. Open GitHub and navitage to your repository
-    3. Click the "Pull Requests" tab and create a new pull request, selecting your feature branch and the main branch
-    4. Once reviewed, the pull request can be merged.
+**Pull requests:** A pull request is a way to propose changes to a repository and facilitate collaborations. You create a pull request when you want to merge changes from one branch into another, and you need someone to review and approve them before merging.  
+    1. Push your changes to github  
+    2. Open GitHub and navigate to your repository  
+    3. Click the "Pull Requests" tab and create a new pull request, selecting your feature branch and the main branch  
+    4. Once reviewed, the pull request can be merged.  
 
 ## Tag a commit
 You can use git tag to tag/commit a useful commit in your timeline. This can be a stable release, a specific version,..
@@ -67,14 +73,15 @@ git tag -d <name> to delete a tag, but you also need to delete it manually on gi
 A branch is an independent timeline that roots from the main timeline. You can use it to work independently on same project, to experiment without risk, etc.
 `git branch <name>`: initiate a new branch
 
-To move between branches you need to do git checkout.
+To move between branches you need to do git checkout.  
 `git checkout <branch_name>`: switches between branches.
 
-Once you’ve completed work on a branch, you can merge it back into the main branch:
-- first switch to the main branch: `git checkout main`
-- merge your branch with main: `git merge <your_branch>`
+Once you’ve completed work on a branch, you can merge it back into the main branch:  
+- first switch to the main branch: `git checkout main`  
+- merge your branch with main: `git merge <your_branch>`  
 
-Once merged, you can delete the branch:
+Once merged, you can delete the branch:  
 `git branch -d <your_branch>`
+
 
 
