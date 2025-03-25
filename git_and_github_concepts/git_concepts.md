@@ -65,9 +65,10 @@ GIT WORKFLOW:
     4. Once reviewed, the pull request can be merged.  
 
 ## Tag a commit
-You can use git tag to tag/commit a useful commit in your timeline. This can be a stable release, a specific version,..
-When you push, you need to add git push --tags as well. 
-git tag -d <name> to delete a tag, but you also need to delete it manually on github. 
+Git allows to create tags to mark specific points in the timeline of your repository. Tags can be used to specify specific versions of the code in a project. They can also be used to denote significant milestones in the development process.  
+You can use `git tag <tag_name>` to add a tag to a commit in your timeline.  
+It is important to note that tags must be included in the push command. When you push, you need to add `<tag_name>`to push a specific tag or `--tags` to push all tags. 
+To remove a tag, use `git tag -d <tag_name>` to delete a specific tag, but you also need to delete it manually on github. 
 
 ## Branches
 A branch is an independent timeline that roots from the main timeline. You can use it to work independently on same project, to experiment without risk, etc.
