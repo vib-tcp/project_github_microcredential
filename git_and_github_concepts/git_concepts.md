@@ -5,7 +5,7 @@
 Git is a software to create a timeline of your projects. It keeps track of all changes you make during your project development and allows you to go back to each version at any point in time. You can save changes, and once you commit them to a version that is a snapshot in time.
 
 **Github:**
-Online repository to collect different git projects. Github is an online backup of all your timelines that were created in git.
+Online repository to collect different git projects. GitHub is an online backup of all your timelines that were created in git.
 
 ## How to start your timeline/repository?
 **Start a local repository:**  
@@ -28,8 +28,8 @@ If we do `git add`, we send it to the staging area, which is the place where you
 **3. Local repository: where is the timeline?**  
 The local repository on your computer is where all the versions live. It is the .git folder you have initialized. Typically only text files. 
 
-**4. Remote area: GitHub**  
-It is the remote repository. You first need to make a repository in GitHub, then you can use the ssh address of the repository to make a bridge on your computer to the remote repository. After that, you can push your local repository to the remote one. Make sure to always clean up your working tree first (check with git status).
+**4. Remote area (GitHub):**  
+It is the remote repository. In the context of this course, we use GitHub. You first need to make a repository in GitHub, then you can use the ssh address of the repository to make a bridge on your computer to the remote repository. After that, you can push your local repository to the remote one. Make sure to always clean up your working tree first (check with `git status`).
 
 GIT WORKFLOW:
 1. adjust your files and save (developing area)
