@@ -54,7 +54,9 @@ GIT WORKFLOW:
 ## Collaborations:
 **Adding collaborators:** You can grant other GitHub users access to your repository as collaborators, allowing them to push changes.
 
-**Pulling changes:** pulling fetches changes from a remote repository and merges them into the current branch.
+**Fetching changes:** Fetching changes from a remote repository downloads changes but does not apply them to your local branch.
+
+**Pulling changes:** Pulling changes from a remote repository downloads and merges them to your local branch.
 
 **Conflicts:** If you are working with someone simultaneously and somebody pushes it before you, this will create a conflict, because Git cannot automatically merge changes. When you try to push your modifications, you will get an error. You need to manually resolve conflicts by editing the conflicting files. For this, you first need to pull the latest version (containing the commit of your collaborator), then you can modify the file and look at the conflict closely and resolve. After that, you need to git add, commit and push it again. 
 
