@@ -47,3 +47,10 @@ Once with the final version you must <span style="color:mediumBlue">make a pull 
 -------------------------------------------------------------------------------------------------
 
 This project is part the first evaluation of the micro-credetial that is offered by [VIB](https://vib.be/en#/) and [UGent](https://www.ugent.be/en) with the aim to improve data analysis reproducbility in science. A micro-credential is like a mini-diploma that you have followed a course and learnd a new skill that is valuable for your carrear. If you are interested to register you can find more detais in the [UGent registration page](https://studiekiezer.ugent.be/2025/micro-credential-reproducible-data-analysis-an-essential-capability-in-modern-science-en).
+
+
+collaboration strategy: 
+1. every collaborator creates a separate branch (leena, rafael, sara, main)
+2. Leena works on git concepts, Rafael on github concepts, Sara on Markdown concepts
+3. We communicate via Teams to update each other on the process and conflict creation/resolving.
+4. second meeting on Thursday 27th at 2PM
