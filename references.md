@@ -9,6 +9,7 @@
 ## Images:
 - [git and github logo](https://pngimg.com/d/github_PNG65.png)
 - [git diff schematic](https://lafkblogs.wordpress.com/2015/12/08/why-git-diff-shows-nothing/)
- 
+
 ## Markdown
 -[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+
