@@ -11,5 +11,5 @@
 - [git diff schematic](https://lafkblogs.wordpress.com/2015/12/08/why-git-diff-shows-nothing/)
 
 ## Markdown
--[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
