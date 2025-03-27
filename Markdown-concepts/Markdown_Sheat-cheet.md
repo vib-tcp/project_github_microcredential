@@ -24,3 +24,14 @@
 - A list item
 - Another list item
 - yet another list item
+
+
+## links and images
+
+### Links
+[Visible URL](https://www.google.com)
+
+### Images
+![Alternative text when image is not there](../images/ImageInMarkdown.png)
+
+`![Alternative text](pathToFile)`
