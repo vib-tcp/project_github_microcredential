@@ -1,6 +1,6 @@
 # Micro-credentials Project
 
-If you found this repository and is not registered in [our micro-credential]() please read more in the last topic.
+If you found this repository and is not registered in [our micro-credential](https://studiekiezer.ugent.be/2025/micro-credential-reproducible-data-analysis-an-essential-capability-in-modern-science-en) please read more in the last topic.
 
 You should **fork this repository** and in collaboration with a colleague that is also part of the micro-credential course. You develop the project together.
 The project is simple, and consists of creating a repository for documenting concepts, best practices, examples and a cheat-sheet on using Git & GitHub.
