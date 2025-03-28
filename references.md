@@ -7,6 +7,7 @@
 - [Git lab Cheat Sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 - [GitHub documentation portal](https://docs.github.com/en)
 - [Git cheat sheet from GitHub Education](https://education.github.com/git-cheat-sheet-education.pdf)
+- [GitHub Education](https://github.com/education)
 
 ## Images:
 - [git and github logo](https://pngimg.com/d/github_PNG65.png)
